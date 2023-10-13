@@ -43,7 +43,7 @@ import time
 countdown = ["10", "9", "8", "7", "6", "5", "4", "3", "2", "1"]
 for number in countdown:
     print(number)
-    time.sleep(1)
+    # time.sleep(1)
 
 print("Happy New Year!")
 
@@ -86,4 +86,17 @@ for i in range(1, 100):
 # Can we count by any other number?
 for i in range(0, 101, 2):
      print(i)
-     
+
+# 1. print all even numbers between 1200 and 1500 inclusive
+# Use a for loop
+
+# 2. Print all odd numbers between -150 and 0 inclusive.
+
+# Once you have your solution,
+# Copy and paste your answer in #i-made-this
+
+for i in range(1200, 1500, 2):
+     print(i)
+
+for i in range(-149, 0, 2):
+     print(i)
