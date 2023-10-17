@@ -25,9 +25,9 @@ cape = input("so, do you like capes? ")
 time.sleep(1)
 
 # if they do, reply with 
-if cape == "yes":
+if cape.lower() == "yes":
     print("hm... okay, its still too early to tell")
-elif cape == "no":
+elif cape.lower() == "no":
     print("That's great.🤖")
 
 
@@ -36,13 +36,13 @@ fav_color = input("Do you like the color blue or green? ")
 time.sleep(1)
 
 # If their favourite color is blue or green, reply with the force is strong with you. 
-if fav_color == "blue": 
+if fav_color.lower() == "blue": 
     print("The force is strong with you")
-elif fav_color == "green":
+elif fav_color.lower() == "green":
     print("Not bad, I think blue is cooler through")
 else:
     # Create a lsit of possible responses
-    list_of_fav_colors = [
+    fav_colors = [
         f"hm... I suppose purple could be an option",
     ]
 
@@ -55,6 +55,6 @@ if fav_color_red.lower() == "yes":
     print("wha- you were supposed to be the chosen one!")
     print("you were like a bruddah to me!")
     print("You've become the very thing you swore to destroy!")
-elif fav_color_red == "no":
+elif fav_color_red.lower() == "no":
     print("alright. cool. I'm chill wit dat")
     print("Light side it is")
