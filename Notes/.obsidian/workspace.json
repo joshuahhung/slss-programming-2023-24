@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Modules.md",
+                "file": "Type.md",
                 "mode": "source",
                 "source": false
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modules.md",
+                "file": "Type.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modules.md",
+                "file": "Type.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +210,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Modules.md"
+                "file": "Type.md"
               }
             }
           }
@@ -235,17 +235,17 @@
   "active": "2bc11fd3fec93a9d",
   "lastOpenFiles": [
     "Strings.md",
-    "Type.md",
-    "Errors.md",
-    "Iteration.md",
-    "Markdown (Re)Introduction.md",
     "Modules.md",
-    "Boolean.md",
-    "Conditionals.md",
-    "Design.md",
-    "Headers.md",
+    "Markdown (Re)Introduction.md",
     "Lists.md",
+    "Iteration.md",
+    "Boolean.md",
     "1 - Natural Language Processing.md",
+    "Headers.md",
+    "Errors.md",
+    "Design.md",
+    "Type.md",
+    "Conditionals.md",
     "2023-09-15.md",
     "Untitled.canvas",
     "Untitled 1.canvas",

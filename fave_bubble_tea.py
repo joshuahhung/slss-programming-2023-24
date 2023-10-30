@@ -37,4 +37,19 @@ for _ in range(NUM_RESPONDENTS):
 
 # Print out a summary of all places
 # Give the raw score AND the percentage
+
+# Summary of Coco
 print(f"CoCo Likes: {coco_likes}")
+print(coco_likes/NUM_RESPONDENTS * 100)
+
+# Summary of Suntea
+print(f"Suntea Likes: {suntea_likes}")
+print(suntea_likes/NUM_RESPONDENTS * 100)
+
+# Summary of Chatime
+print(f"Chatime Likes: {chatime_likes}")
+print(chatime_likes/NUM_RESPONDENTS * 100)
+
+# Summary of Bubqueen
+print(f"Bubqueen Likes: {bubqueen_likes}")
+print(bubqueen_likes/NUM_RESPONDENTS * 100)
