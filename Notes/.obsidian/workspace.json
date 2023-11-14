@@ -102,9 +102,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3b3b7174f3d63d31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Numbers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6ed51eca3c660c26",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recommendation Systems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fe2b459873b24b25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recommendation Systems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -170,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Type.md",
+                "file": "Recommendation Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Type.md",
+                "file": "Recommendation Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Type.md"
+                "file": "Recommendation Systems.md"
               }
             }
           }
@@ -232,14 +268,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2bc11fd3fec93a9d",
+  "active": "fe2b459873b24b25",
   "lastOpenFiles": [
     "Strings.md",
+    "Type.md",
+    "Numbers.md",
+    "Objects.md",
+    "Modules.md",
+    "Markdown (Re)Introduction.md",
+    "Recommendation Systems.md",
     "Errors.md",
     "Lists.md",
-    "Markdown (Re)Introduction.md",
-    "Modules.md",
-    "Type.md",
     "Iteration.md",
     "Boolean.md",
     "1 - Natural Language Processing.md",
