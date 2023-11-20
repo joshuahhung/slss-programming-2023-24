@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recommendation Systems.md",
+                "file": "Lists.md",
                 "mode": "source",
                 "source": false
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recommendation Systems.md",
+                "file": "Lists.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recommendation Systems.md",
+                "file": "Lists.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recommendation Systems.md"
+                "file": "Lists.md"
               }
             }
           }
@@ -270,21 +270,21 @@
   },
   "active": "fe2b459873b24b25",
   "lastOpenFiles": [
-    "Strings.md",
-    "Type.md",
-    "Numbers.md",
-    "Objects.md",
-    "Modules.md",
-    "Markdown (Re)Introduction.md",
-    "Recommendation Systems.md",
-    "Errors.md",
-    "Lists.md",
-    "Iteration.md",
-    "Boolean.md",
-    "1 - Natural Language Processing.md",
-    "Headers.md",
-    "Design.md",
     "Conditionals.md",
+    "Design.md",
+    "Errors.md",
+    "Headers.md",
+    "Iteration.md",
+    "Numbers.md",
+    "Modules.md",
+    "Type.md",
+    "Strings.md",
+    "Recommendation Systems.md",
+    "Boolean.md",
+    "Lists.md",
+    "Objects.md",
+    "Markdown (Re)Introduction.md",
+    "1 - Natural Language Processing.md",
     "2023-09-15.md",
     "Untitled.canvas",
     "Untitled 1.canvas",

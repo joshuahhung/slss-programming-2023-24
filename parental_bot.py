@@ -24,3 +24,8 @@ mom_score = 0
 with open("./data.csv") as f:
     # Throw away the header line
     header = f.readline()
+
+    # For every lineo f data in the file (string)
+    for line in f:
+        current_likes = line.split(",")
+        
