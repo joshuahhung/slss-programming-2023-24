@@ -99,4 +99,12 @@ print(f"Total Even Numbers is {Even}")
 # Problem 7:
 # Sorry, no answer for the above one. This one is a challenge question.
 # Can you design a way to find the most popular food?
+most_pop_food = ""
+food_name = 0
 
+with open("./data_example.csv", encoding="utf-8") as f:
+    for line in f:
+        current_line = line.strip().split(",")
+
+    if count > most_pop_food:
+        
