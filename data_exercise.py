@@ -87,9 +87,16 @@ print(f"Total Guanzhou is {G}")
 # Just one is from Guangzhou! Alright, last one. How many people have a credit card
 # number that is even. There are a couple of ways to solve this.
 # You can either do this with the string or with the int.
+Even = 0
 
+with open("./data_example.csv", encoding="utf-8") as f:
+    for line in f:
+        current_line = line.strip().split(",")
+        Even += current_line[3].count("2")
+print(f"Total Even Numbers is {Even}")
 
 
 # Problem 7:
 # Sorry, no answer for the above one. This one is a challenge question.
 # Can you design a way to find the most popular food?
+

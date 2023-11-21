@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lists.md",
+                "file": "Numbers.md",
                 "mode": "source",
                 "source": false
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lists.md",
+                "file": "Numbers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lists.md",
+                "file": "Numbers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +246,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lists.md"
+                "file": "Numbers.md"
               }
             }
           }
@@ -270,19 +270,19 @@
   },
   "active": "fe2b459873b24b25",
   "lastOpenFiles": [
+    "Recommendation Systems.md",
+    "Objects.md",
+    "Numbers.md",
+    "Lists.md",
     "Conditionals.md",
     "Design.md",
     "Errors.md",
     "Headers.md",
     "Iteration.md",
-    "Numbers.md",
     "Modules.md",
     "Type.md",
     "Strings.md",
-    "Recommendation Systems.md",
     "Boolean.md",
-    "Lists.md",
-    "Objects.md",
     "Markdown (Re)Introduction.md",
     "1 - Natural Language Processing.md",
     "2023-09-15.md",
