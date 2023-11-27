@@ -62,7 +62,7 @@ def stars(num_stars: int) -> str:
 
     return "*" * num_stars
 
-print(stars(10000))
+print(stars(10))
 
 
 # Question 2
@@ -74,13 +74,43 @@ def biggest_of_three(num_one: int, num_two: int, num_three: int) -> str:
     """Returns the biggest of the three numbers
     Params:
 
-    three - the number of the biggest number to return 
+    Biggest - the number of the biggest number to return 
     """
-    if num_one >= num_two and num_one >= num_three:
+    if num_one > num_two and num_one > num_three:
         return num_one
-    elif num_two >= num_two and num_one >= num_three:
+    elif num_two > num_one and num_two > num_three:
         return num_two
     else:
         return num_three
-    
-print(biggest_of_three())
+
+print(biggest_of_three(300, 90, 9000))
+
+
+# Question 3
+# Write a function that crates a pyramid of stars. 
+# Call it pyramid()
+
+def pyramid(rows: int) -> str:
+    """Creates a pyramid of stars up to 5 rows increasing by one each time
+    Params:
+
+    num_stars - the number in each row
+    """
+    for i in range(rows):
+        print(stars(i+1))
+
+print(pyramid(5))
+
+
+# Question 4
+# Write a function that creates a pyramid of stars, mirrored. 
+# Call it pyramid_mirror
+
+def pyramid(rows: int) -> str:
+    """Creates a mirrored pyramid of stars"""
+    for i in range(rows):
+        spaces = ' ' * (rows - i - 1)
+        stars = '*' * (i + 1)
+        print(spaces + stars)
+
+pyramid(5)

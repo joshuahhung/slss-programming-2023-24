@@ -145,7 +145,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lists.md",
+                "file": "Iteration.md",
                 "mode": "source",
                 "source": false
               }
@@ -218,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lists.md",
+                "file": "Iteration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -235,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lists.md",
+                "file": "Iteration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -258,7 +258,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Lists.md"
+                "file": "Iteration.md"
               }
             }
           }
@@ -282,6 +282,7 @@
   },
   "active": "431c2844f23666d5",
   "lastOpenFiles": [
+    "Lists.md",
     "Iteration.md",
     "Headers.md",
     "Functions.md",
@@ -295,7 +296,6 @@
     "Numbers.md",
     "Objects.md",
     "Modules.md",
-    "Lists.md",
     "Markdown (Re)Introduction.md",
     "1 - Natural Language Processing.md",
     "2023-09-15.md",
