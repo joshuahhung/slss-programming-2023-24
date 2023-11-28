@@ -96,8 +96,8 @@ def pyramid(rows: int) -> str:
 
     num_stars - the number in each row
     """
-    for i in range(rows):
-        print(stars(i+1))
+    for current_layer in range(1, rows+1):
+        print(stars(current_layer))
 
 print(pyramid(5))
 
@@ -106,11 +106,18 @@ print(pyramid(5))
 # Write a function that creates a pyramid of stars, mirrored. 
 # Call it pyramid_mirror
 
-def pyramid(rows: int) -> str:
+def pyramid_mirror(rows: int) -> None:
     """Creates a mirrored pyramid of stars"""
-    for i in range(rows):
-        spaces = ' ' * (rows - i - 1)
-        stars = '*' * (i + 1)
-        print(spaces + stars)
+    for current_layer in range(1, rows + 1):
+    # Print the spaces then print the stars
+    # num_layers == 2
+    # " " * 0 + stars(1)
+    # " " * 0 + stars(2)
+    # num_layers == 3
+    # " " * 2 + stars (1)
+    # " " * 1 + stars(2)
+    # " " * 0 + stars(3)
+        print(" " * (rows - current_layer) + stars(current_layer))
+       
 
-pyramid(5)
+print(pyramid_mirror(5))
