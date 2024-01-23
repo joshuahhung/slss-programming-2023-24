@@ -150,9 +150,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a00b83aea65f3734",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.3"
+              }
+            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -280,7 +290,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "431c2844f23666d5",
+  "active": "a00b83aea65f3734",
   "lastOpenFiles": [
     "Iteration.md",
     "Lists.md",
