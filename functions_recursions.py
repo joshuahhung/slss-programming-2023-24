@@ -29,7 +29,7 @@ def fib(n: int) -> int:
     Fibonacci number."""
 
     if n in [1, 2]:
-        return 1
+        return 1    
     elif n > 2:
         return fib(n - 1) + fib(n - 2)
 
